@@ -432,13 +432,41 @@ background-color: #282828;
   background: #272727;
 }
 
-@media(min-width:576px) {
-/*
+/* MEDIA QUERIES */
+
+@media(max-width:576px) {
+
+  .container * {
+    border-radius: 10px;
+  }
+
+  .navlogo img {
+    height: 60px;
+  }
+
+  .navigation a {
+    font-size: 0.8em;
+  }
+
+  .navigation a:hover {
+    font-size: 0.8em;
+  }
+
+  .mainarea {
+    display: flex;
+    text-align: center;
+    background: url(../images/water_lg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;
+    padding: 20px 0;
+  }
+
   .mainarea h1 {
     padding-top: -30px;
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 3em;
+    font-size: 2em;
     color: #FFFFFF;
     text-align: center;
     text-shadow: 0px 2px 3px #000000;
@@ -449,7 +477,7 @@ background-color: #282828;
     padding-top: -30px;
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 3em;
+    font-size: 2em;
     color: #e4f200;
     text-align: center;
     text-shadow: 0px 2px 3px #000000;
@@ -461,14 +489,61 @@ background-color: #282828;
   }
 
   .mainarea p {
-    font-family: "Cinzel", sans-serif;
-    font-size: 1em;
-    text-align: center;
-    letter-spacing: 6px;
-    color: #000000;
+    font-size: 0.6em;
+    font-weight: bold;
   }
 
   .mainarea img {
-    width: 30vh;
-  }*/
+    width: 80px;
+  }
+
+  .medarea {
+    height: 400px;
+    margin-top: 19px;
+  }
+
+  .medarea .col-12 {
+    margin-top: 1px;
+  }
+
+  .medpic1 {
+    -webkit-filter: grayscale(0%);
 }
+
+  .medpic2 {
+    -webkit-filter: grayscale(0%);
+  }
+
+  .medpic3 {
+    -webkit-filter: grayscale(0%);
+  }
+
+  .medpic4 {
+    -webkit-filter: grayscale(0%);
+  }
+
+  .social1 {
+    margin-top: 20px;
+    -webkit-filter: grayscale(0%);
+}
+
+  .social2 {
+    margin-top: 1px;
+    -webkit-filter: grayscale(0%);
+}
+
+  .social3 {
+    margin-top: 1px;
+    -webkit-filter: grayscale(0%);
+  }
+
+  .social4 {
+    margin-top: 1px;
+    margin-bottom: 20PX;
+    -webkit-filter: grayscale(0%);
+  }
+
+  ::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+  }
