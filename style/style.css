@@ -432,7 +432,7 @@ background-color: #282828;
 
 /* MEDIA QUERIES */
 
-@media(max-width:576px) {
+@media(max-width:800px) {
 
   .container * {
     border-radius: 10px;
