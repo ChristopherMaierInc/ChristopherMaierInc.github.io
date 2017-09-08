@@ -463,7 +463,7 @@ background-color: #282828;
 
   .mainarea h1 {
     padding-top: 0px;
-    font-size: 2.5em;
+    font-size: 2.6em;
   }
 
   .mainarea h1:hover {
@@ -476,8 +476,8 @@ background-color: #282828;
   }
 
   .mainarea p {
-    padding-top: 10px;
-    font-size: 0.6em;
+    padding-top: 5px;
+    font-size: 0.63em;
     font-weight: bold;
     text-transform: uppercase;
   }
