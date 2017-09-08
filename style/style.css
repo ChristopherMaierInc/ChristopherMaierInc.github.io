@@ -440,8 +440,12 @@ background-color: #282828;
     border-radius: 10px;
   }
 
-  .navlogo img {
+  .navigation {
     height: 60px;
+  }
+
+  .navlogo img {
+    height: 40px;
   }
 
   .navigation a {
@@ -453,35 +457,18 @@ background-color: #282828;
   }
 
   .mainarea {
-    display: flex;
-    text-align: center;
-    background: url(../images/water_lg.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 250px;
-    padding: 20px 0;
+    height: 400px;
+    padding: 0px 0;
   }
 
   .mainarea h1 {
-    padding-top: -30px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    font-size: 2em;
-    color: #FFFFFF;
-    text-align: center;
-    text-shadow: 0px 2px 3px #000000;
-    -webkit-transition: 1s ease-in-out;
+    padding-top: 0px;
+    font-size: 2.5em;
   }
 
   .mainarea h1:hover {
-    padding-top: -30px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    font-size: 2em;
-    color: #e4f200;
-    text-align: center;
-    text-shadow: 0px 2px 3px #000000;
-    -webkit-transition: 1s ease-in-out;
+    padding-top: 0px;
+    font-size: 2.6em;
   }
 
   .mainarea a {
@@ -489,16 +476,18 @@ background-color: #282828;
   }
 
   .mainarea p {
+    padding-top: 10px;
     font-size: 0.6em;
     font-weight: bold;
+    text-transform: uppercase;
   }
 
   .mainarea img {
-    width: 80px;
+    width: 150px;
   }
 
   .medarea {
-    height: 400px;
+    height: 450px;
     margin-top: 19px;
   }
 
@@ -525,22 +514,26 @@ background-color: #282828;
   .social1 {
     margin-top: 20px;
     -webkit-filter: grayscale(0%);
+    height: 75px;
 }
 
   .social2 {
     margin-top: 1px;
     -webkit-filter: grayscale(0%);
+    height: 75px;
 }
 
   .social3 {
     margin-top: 1px;
     -webkit-filter: grayscale(0%);
+    height: 75px;
   }
 
   .social4 {
     margin-top: 1px;
-    margin-bottom: 20PX;
+    margin-bottom: 20px;
     -webkit-filter: grayscale(0%);
+    height: 75px;
   }
 
   ::-webkit-scrollbar {
