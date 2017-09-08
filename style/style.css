@@ -96,6 +96,7 @@ background-color: #282828;
 }
 
 .medarea {
+  margin-top: 10px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 20pt;
@@ -105,7 +106,7 @@ background-color: #282828;
 }
 
 .medarea .col-12 {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .medpic1 {
@@ -255,13 +256,14 @@ background-color: #282828;
 
 .smarea {
   height: 10vh;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-bottom: 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 20pt;
   color: #FFFFFF;
   text-shadow: 0px 2px 3px #000000;
+  margin-top: 10px;
 }
 
 .social1 {
